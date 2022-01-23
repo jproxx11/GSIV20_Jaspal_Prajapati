@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+
+
+
+
+/* ---------------------------------Search Bar Styling Starts--------------------------------------- */
+
+.searchbar{
+  display:flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  background-color: #dfdfdf;
+  border-radius:7px;
+  
+}
+
+.searchbar>input{
+  background-color:#dfdfdf;
+  border: none;
+  outline-width: 0;
+  width:50rem;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.searchbar>input::placeholder{
+  color:#9b9b9b;
+  font-size: 15px;
+}
+
+.searchbar > .MuiSvgIcon-root
+{
+    color:#9b9b9b;
+    margin-top: 3px;
+    
+  }
+  
+  
+.homeicon{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  color:#4a4a4a !important
+  
+}
+
+hr {
+  color:#9b9b9b;
+  padding-top: 3px;
+}
+
+
+/* ---------------------------------Search Bar Styling Ends--------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------Movie Styling Starts--------------------------------------- */
+
+
+.box1{
+  margin-top:2rem;
+  margin-right:2.5rem;
+}
+
+.card-container{
+  padding-bottom:5rem;
+}
+
+
+/* ---------------------------------Movie Styling Ends--------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------Movie Item Styling Starts--------------------------------------- */
+
+
+.card-content{
+  position: relative;
+  top:-1rem;
+}
+
+
+.card-content-left{
+  /* text-decoration: none; */
+  height:2rem;
+  font-size:15px;
+  font-weight:bold;
+}
+.card-content-right{
+  height:2rem;
+  width:8px;
+  position: relative;
+  left: 1.5rem;
+}
+.card-content-bottom{
+  margin-top:1rem;
+}
+
+/* ---------------------------------Movie Item Styling Ends--------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------My Movie Styling Starts--------------------------------------- */
+
+
+.movie-detail{
+  display:flex;
+  height:3rem;
+  position: relative;
+}
+.movie-detail>h4{
+  color:#4a4a4a;
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+
+.mymovies{
+  display:flex;
+}
+
+.mymovie-details{
+  margin-left:1rem;
+}
+
+
+
+.top-details{
+  display:flex;
+}
+
+.top-details>h5{
+  margin-right: 6px;
+}
+.top-details>p{
+  font-size:1rem;
+  margin-top:1px;
+  margin-left: 1px;
+}
+
+.middle-details{
+  
+  margin-top:2rem;
+}
+
+.bottom-details{
+  margin-top:2rem;
+  
+}
+
+/* ---------------------------------My Movie Styling Ends--------------------------------------- */
+
+
